@@ -14,8 +14,8 @@ body {
 
 .container {
   max-width: 960px;
-  /* margin: 0 auto; */
- /* padding-top: 50px; */
+  margin-right: 10%;
+ padding-top: 50px;
   clear: both;
   
 }
@@ -24,7 +24,7 @@ h1,
 h2,
 h3,
 p {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 p:last-child {
@@ -132,7 +132,7 @@ h3, h2 {
 /* main */
 
 #main-container {
-  padding-top: 130px;
+  padding-top: 5%;
   min-height: calc(100vh - 70px);
 }
 
