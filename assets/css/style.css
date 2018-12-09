@@ -10,6 +10,11 @@ body {
   box-sizing: border-box;
 }
 
+.navbar navbar-expand-lg navbar-light bg-dark{
+
+  background-color: #e3f2fd;
+}
+
 /* general */
 
 .container {
@@ -75,11 +80,11 @@ h3 {
 #logo {
   float: left;
   width: 250px;
-  height: 70px;
+  height: 60px;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 30px;
   font-weight: 700;
-  line-height: 90px;
+  line-height: 70px;
   color: #ffffff;
   text-align: center;
   text-decoration: none;
@@ -91,6 +96,10 @@ h3 {
   margin-top: 8px;
   width: 100%;
   margin-bottom: auto;
+  padding: 2px 0;
+  left: 0;
+  right: 0;
+  position:fixed;
  
 
 }
@@ -109,6 +118,7 @@ nav a:first-child {
 
 .navbar-brand{
   margin-bottom: 2px;
+ 
  
 }
 
