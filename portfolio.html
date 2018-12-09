@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,137 +13,198 @@
 
 </head>
 
+<!-- body starts there -->
 <body>
+<!-- linking the pages for about, portfolio and contact -->
+        <div id="navContainer"  class="container-fluid">
+                <header>
+                    <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light">
+                        <a id=logo class="navbar-brand" href="index.html">Darakhshan</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div id="resizeimg" class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+        
+        
+                </header>
+        
+            </div>
 
-    <div class="container-fluid">
-        <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a id=logo class="navbar-brand" href="index.html">Darakhshan</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="portfolio.html">Portfolio</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-
-
-        </header>
-
-    </div>
-
-
-    <div id="main-container" class="container">
-
-        <section class="main-section">
-          
-            <div class="row">
-                <div class="col-md-12">
-
-
-                    <h1 id="second-heading">Portfolio</h1>
-
-                </div>
-              
+<br>
+<!-- line break -->
+<!-- creating all the links of the assignments and projects using bootstrap cards -->
+        <div id="main-container" class="container-fluid">
+                <section class="main-section">
+                <div id="portfolio" class="card">
+                        <div id= "text-portfolio" class="card-body">
+                         <p>Portfolio</p>
+                        </div>
+                      </div>
                 <div class="row">
-                    <div class="col-md-3">
-                        <div class="card bg-dark text-white">
-                            <img class="card-img" src="assets/images/zjz.png" alt="Kids">
-                            <div class="card-img-overlay">
-                                <h5 class="card-title">Family</h5>
-
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <h5 class="card-header">
+                                            Family
+                                    </h5>
+                                    <div class="card-body">
+                                        <p class="card-text">
+                                                <img class="card-img" src="assets/images/zjz.png" alt="Kids">
+                                        </p>
+                                    </div>
+                                
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                  
-                    <div class="col-md-3">
-                        <div class="card bg-dark text-white">
-                            <a href="https://dara9234.github.io/GiphyGameSearch/"><img class="card-img" src="assets/images/olympics.jpg" alt="GiphyGameSearch App"></a>
-                            <div class="card-img-overlay">
-                                <h5 class="card-title">Giphy Olympics Game Search</h5>
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <h5 class="card-header">
+                                            Train Scheduler
+                                    </h5>
+                                    <div class="card-body">
+                                        <p class="card-text">
+                                                <a href="https://dara9234.github.io/Train-Schedular//"><img class="card-img" src="assets/images/TrainScheduler.png"
+                                                    alt="Train-Schedular App"></a>
+                                        </p>
+                                    </div>
+                                    
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="card bg-dark text-white">
-                            <a href="https://dara9234.github.io/Train-Schedular//"><img class="card-img" src="assets/images/train_4.jpg" alt="Train-Schedular App"></a>
-                            <div class="card-img-overlay">
-                                <h5 class="card-title">Train Schedular App</h5>
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <h5 class="card-header">
+                                            Giphy Search
+                                    </h5>
+                                    <div class="card-body">
+                                        <p class="card-text">
+                                                <a href="https://dara9234.github.io/GiphyGameSearch/"><img class="card-img" src="assets/images/olympics3.png"
+                                                    alt="GiphyGameSearch App"></a>
+                                        </p>
+                                    </div>
+                                   
+                                </div>
                             </div>
-                        </div>
-                    </div>
-               
-                    <div class="col-md-3">
-                        <div class="card bg-dark text-white">
-                            <a href="https://dara9234.github.io/unit-4-game//"><img class="card-img" src="assets/images/emerald.jpeg" alt="GiphyGameSearch App"></a>
-                            <div class="card-img-overlay">
-                                <h5 class="card-title">Crystals Collector</h5>
-                            </div>
-                        </div>
-                    </div>
-                <br>
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="card bg-dark text-white">
-                            <a href="https://www.facebook.com/tutorsloop.tutor/"><img class="card-img" src="assets/images/TL.jpg" alt="Tutorsloop"></a>
-                            <div class="card-img-overlay">
-                                <h5 class="card-title">Tutors Group</h5>
-                            </div>
-                        </div>
-                    </div>
-                   
-                    <div class="col-md-3">
-                        <div class="card bg-dark text-white">
-                            <img class="card-img" src="assets/images/flowerpot.jpg" alt="DIY">
-                            <div class="card-img-overlay">
-                                <h5 class="card-title">DIY Project</h5>
-
-                            </div>
-                           
-                            <div class="col-md-6">
-
-                            </div>
-
-                            <br>
-
                         </div>
                     </div>
                 </div>
-                <br>
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="card bg-dark text-white">
-                            <a href=" https://www.facebook.com/groups/ex5el/"></a><img class="card-img" src="assets/images/dealpage.jpg" alt="deals page">
-                            <div class="card-img-overlay">
-                                <h5 class="card-title">Deals Group</h5>
-                            </div>
-                            </div>
-                        </div>
-                            <div class="col-md-3">
-                                    <div class="card bg-dark text-white">
-                                        <a href="https://dara9234.github.io/TriviaGame/"><img class="card-img" src="assets/images/world_Trivia11.png" alt="Trivia"></a>
-                                        <div class="card-img-overlay">
-                                            <h5 class="card-title">Trivia Game</h5>
+            <!--Line break  -->
+
+         <br>  
+         <!--  creating another row of all the links of the assignments and projects using bootstrap cards -->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <h5 class="card-header">
+                                                Crystals Collector
+                                        </h5>
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                    <a href="https://dara9234.github.io/unit-4-game//"><img class="card-img" src="assets/images/emerald.jpeg"
+                                                        alt="GiphyGameSearch App"></a>
+                                            </p>
                                         </div>
+                                        <!-- <div class="card-footer"> -->
+                                            <!-- Card footer -->
+                                        <!-- </div> -->
                                     </div>
                                 </div>
-                            <div class="col-md-6">
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <h5 class="card-header">
+                                                Tutors Page
+                                        </h5>
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                    <a href="https://www.facebook.com/tutorsloop.tutor/"><img class="card-img" src="assets/images/TL.jpg"alt="Tutorsloop"></a>
+                                
+                                            </p>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <h5 class="card-header">
+                                                Recipe Search
+                                        </h5>
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                    <a href="https://ambellinger.github.io/team1groupproject//"><img class="card-img" src="assets/images/letscookit.png"
+                                                        alt="Let's Cookit Project"></a>
+                                            </p>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
                             </div>
+                        </div>
+                    </div>
+              
 
-        </section>
-    </div>
+<!-- Line break -->
+                    <br>  
 
+<!-- creating all the links of the assignments and projects using bootstrap cards -->
+            
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="card">
+                                            <h5 class="card-header">
+                                                   Deals Page
+                                            </h5>
+                                            <div class="card-body">
+                                                <p class="card-text">
+                                                        <a href="https://www.facebook.com/groups/ex5el/"><img class="card-img" src="assets/images/AmzDeal.png"
+                                                            alt="deals page"></a>
+                                                </p>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="card">
+                                            <h5 class="card-header">
+                                                    Trivia Game
+                                            </h5>
+                                            <div class="card-body">
+                                                <p class="card-text">
+                                                        <a href="https://dara9234.github.io/TriviaGame/"><img class="card-img" src="assets/images/world_Trivia11.png"
+                                                            alt="Trivia"></a>
+                                    
+                                                </p>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                            
+                                                <!-- Empty column -->
+                                            </div>
+                                        </div>
+                                    </section>
+            
+                                    <!-- </div>    -->
+
+                                    <!-- Footer -->
+                                                   
     <footer>
         <div class="container">
 
@@ -163,3 +225,28 @@
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
